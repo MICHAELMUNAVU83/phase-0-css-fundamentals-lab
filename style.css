@@ -3,3 +3,35 @@ body {
   height: 100%;
   margin: 0;
 }
+header, 
+#featured-property{
+  text-align: center;
+}
+
+nav >a{
+  padding: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  background: rgb(30, 27, 65);
+  border-radius: 5px;
+}
+nav >a:hover{
+  background: rgb(73, 66, 53);
+}
+
+figcaption{
+  font-size: 15px;
+}
+#featured-property>p{
+  width: 800px;
+  margin: auto;
+}
+
+#details{
+  background: rgb(23, 20, 46);
+  margin-top: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
